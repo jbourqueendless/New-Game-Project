@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfbsnyog84kr0"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_lr5bp"]
+line_spacing = 20.0
+font_size = 50
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 501.0
+offset_top = 112.0
+offset_right = 756.0
+offset_bottom = 257.0
+text = "Hey!"
+label_settings = SubResource("LabelSettings_lr5bp")
